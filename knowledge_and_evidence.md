@@ -97,8 +97,8 @@ python3 main.py
    | ----------------------- | ----- | --------|
    | int                     | Yes   | mouth = [49...  |
    | float                   | Yes   | delay=0.25      |
-   | str                     | _     | _          |
-   | bool                    | _     | _          |
+   | str                     | No    | ("Hello World") |
+   | bool                    | Yes   | wide_open=True  |
 
 5. Examining `smiley.py`, provide an example of a class variable and an instance variable (attribute). Explain **why** one is defined as a class variable and the other as an instance variable.
 
