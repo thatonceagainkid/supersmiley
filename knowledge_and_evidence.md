@@ -72,7 +72,7 @@ python3 main.py
    | Type                    | name       | value          |
    | ----------              | ---------- | -------------- |
    | built-in primitive type | dimmed     |  True          |
-   | built-in composite type | _          |  _             |
+   | built-in composite type | Y          |  self.YELLOW   |
    | user-defined type       | Smiley     |  _             |
 
 2. Fill in (`_`) the following table based on the code in `smiley.py`:
