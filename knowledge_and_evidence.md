@@ -79,9 +79,9 @@ python3 main.py
 
    | Object                   | Type                    |
    | ------------             | ----------------------- |
-   | self.pixels              | _                       |
-   | A member of self.pixels  | _                       |
-   | self                     | _                       |
+   | self.pixels              | list                    |
+   | A member of self.pixels  | index                   |
+   | self                     | function                |
 
 3. Examine the code for `smiley.py`, `sad.py`, and `happy.py`. Give an example of each of the following control structures using an example from **each** of these files. Include the first line and the line range:
 
