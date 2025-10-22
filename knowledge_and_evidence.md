@@ -108,7 +108,8 @@ python3 main.py
 6. Examine `happy.py`, and identify the constructor (initializer) for the `Happy` class:
    1. What is the purpose of a constructor (in general) and this one (in particular)?
 
-   > The purpose of a constructor
+   > The purpose of a constructor is to initialize setting up an object by manually defining its state and attributes for the purposes of object-oriented programming (OOP)
+   > The constructor in the happy.py file is the class Happy (Smiley, Blinkable) which is set up to defund the Happy class as its own object, borrowing from the Smiley and Blinkable classes.
    >
 
    2. What statement(s) does it execute (consider the `super` call), and what is the result?
