@@ -87,9 +87,9 @@ python3 main.py
 
    | Control Flow | File       | First line  | Line range  |
    | ------------ | ---------- | ----------- | ----------- |
-   |  sequence    |  _         | _           | _           |
-   |  selection   | _          | _           | _           |
-   |  iteration   | _          | _           | _           |
+   |  sequence    | happy.py   | 39          | 39-43       |
+   |  selection   | sad.py     | 26          | 26-29       |
+   |  iteration   | sad.py     | 16          | 16-17       |
 
 4. Though everything in Python is an object, it is sometimes said to have four "primitive" types. Examining the three files `smiley.py`, `sad.py`, and `happy.py`, identify which of the following types are used in any of these files, and give an example of each (use an example from the code, if applicable, otherwise provide an example of your own):
 
@@ -102,13 +102,13 @@ python3 main.py
 
 5. Examining `smiley.py`, provide an example of a class variable and an instance variable (attribute). Explain **why** one is defined as a class variable and the other as an instance variable.
 
-> Your answer here
+> YELLOW is an example of a class variable, and that __init__(self) . The reason that YELLOW is considered a class variable is that it is a variable that is shared across all instances of that class - say if you were to run the the happy.py or sad.py files, it would still borrow the exact same settings for YELLOW from the Smiley class. On the other hand __init__(self) is an instance variable in that this property is not shared by all other instances of the class.
 >
 
 6. Examine `happy.py`, and identify the constructor (initializer) for the `Happy` class:
    1. What is the purpose of a constructor (in general) and this one (in particular)?
 
-   > Your answer here
+   > The purpose of a constructor
    >
 
    2. What statement(s) does it execute (consider the `super` call), and what is the result?
