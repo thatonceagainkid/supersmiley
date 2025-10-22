@@ -95,8 +95,8 @@ python3 main.py
 
    | Type                    | Used? | Example |
    | ----------------------- | ----- | --------|
-   | int                     | _     | _          |
-   | float                   | _     | _          |
+   | int                     | Yes   | mouth = [49...  |
+   | float                   | Yes   | delay=0.25      |
    | str                     | _     | _          |
    | bool                    | _     | _          |
 
