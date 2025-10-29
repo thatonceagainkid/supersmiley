@@ -172,16 +172,16 @@ That is, delete the sense_hat.py file that is included in this bundle."""
 Compare and contrast the classes Happy and Sad.
 
 1. What is the key difference between the two classes?
-   > Your answer here
+   > There is additional blinkable class property in the happy class (inherited from blinkable class)
    >
 2. What are the key similarities?
-   > Your answer here
+   > Both (sub)classes have def__init__(self):, def draw_mouth(self):, def draw_eyes functions. They also both need to import the smiley function from smiley.py
    >
 3. What difference stands out the most to you and why?
-   > Your answer here
+   > The blinkable class property in the happy class stands out the most to me, as it adds a function that doesn't exist
    >
 4. How does this difference affect the functionality of these classes
-   > Your answer here
+   > The sad class doesn't have the blinkable property 
    >
 
 ### 2.6. Where is the Sense(Hat) in the code?
