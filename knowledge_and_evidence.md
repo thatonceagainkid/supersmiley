@@ -126,8 +126,9 @@ python3 main.py
 
 2. List three aspects of this convention you see applied in the code.
 
-> Your answer here
->
+> - Four space indentation
+> - The closing brace/bracket/parenthesis on multiline constructs may either line up under the first non-whitespace character of the last line of list
+> - Flowing long blocks of text with fewer structural restrictions (docstrings or comments), the line length should be limited to 72 characters.
 
 3. Give two examples of organizational documentation in the code.
 
