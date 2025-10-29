@@ -151,8 +151,11 @@ That is, delete the sense_hat.py file that is included in this bundle."""
 
 | Class Name | Super or Sub? | Direct parent(s) |
 | ---------- | ------------- | ---------------- |
-| NotReal    | Sub           | NotRealParent    |
-|   ...      |   ...         |      ...         |
+| Smiley     | Super         |                  |
+| Happy      | Sub           | Smiley           |
+| Sad        | Sub           | Smiley           |
+| Blinkable  | Sub           | Smiley           |
+| SenseHat   | Super         |                  |
 
 2. Explain the concept of abstraction, giving an example from the project (note "implementing an ABC" is **not** in itself an example of abstraction). (Max 150 words)
 
