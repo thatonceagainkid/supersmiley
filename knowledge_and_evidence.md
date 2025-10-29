@@ -159,12 +159,12 @@ That is, delete the sense_hat.py file that is included in this bundle."""
 
 2. Explain the concept of abstraction, giving an example from the project (note "implementing an ABC" is **not** in itself an example of abstraction). (Max 150 words)
 
-> Your answer here
->
+> Abstraction, in the context of object-oriented programming, is the combination of methods and properties into a class, so that the user can just call the class, without knowing any (let alone, all) of the details of how it actually functions
+> The abstraction example in the project is the smiley face on the light boards. The smiley is an abstract representation of a human face. The internal details of the smiley is actually made of circuitry and LEDs
 
 3. What is the name of the process of deriving from base classes? What is its purpose in this project? (Max 150 words)
 
-> Your answer here
+> Inheritance is the process of deriving from base classes. The purpose of inheritance in the project is to configure the various different 'moods' (subclasses - happy / sad) of the Smiley superclass
 >
 
 ### 2.5. Compare and contrast classes
