@@ -135,11 +135,10 @@ python3 main.py
 If you have access to a SenseHAT (either via a Raspberry Pi or a SenseHAT emulator), you can use the real SenseHAT class instead of the mock SenseHAT class.
 That is, delete the sense_hat.py file that is included in this bundle."""
 
-"""
+> """
         Set the SenseHat's light intensity to low (True) or high (False)
         :param dimmed: Dim the display if True, otherwise don't dim
         """
->
 
 ### 2.4. Identifying and understanding classes
 
