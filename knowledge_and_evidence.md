@@ -114,14 +114,14 @@ python3 main.py
 
    2. What statement(s) does it execute (consider the `super` call), and what is the result?
 
-   > Your answer here
+   > It executes the happy script from happy.py, which initialises a version of smiley with a happy setting. You will also be greeted with a print statement that says: Starting mock SenseHAT
    >
 
 ### 2.3. Code style
 
 1. What code style is used in the code? Is it likely to be the same as the code style used in the SenseHat? Give to reasons as to why/why not:
 
-> Your answer here
+> The code conforms to the PEP8 style guide. It is likely to be the same as the code style used in SenseHAT. The reason why both codes are written in the PEP8 style is that PEP8 is a common standard adopted by many programmers in order to have the most cleanest and concise code for others to read and modify.
 >
 
 2. List three aspects of this convention you see applied in the code.
@@ -131,7 +131,14 @@ python3 main.py
 
 3. Give two examples of organizational documentation in the code.
 
-> Your answer here
+> """Demonstrates the use of the Smiley class and its subclasses.
+If you have access to a SenseHAT (either via a Raspberry Pi or a SenseHAT emulator), you can use the real SenseHAT class instead of the mock SenseHAT class.
+That is, delete the sense_hat.py file that is included in this bundle."""
+
+"""
+        Set the SenseHat's light intensity to low (True) or high (False)
+        :param dimmed: Dim the display if True, otherwise don't dim
+        """
 >
 
 ### 2.4. Identifying and understanding classes
