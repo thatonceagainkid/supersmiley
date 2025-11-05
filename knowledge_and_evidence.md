@@ -164,7 +164,7 @@ That is, delete the sense_hat.py file that is included in this bundle."""
 
 3. What is the name of the process of deriving from base classes? What is its purpose in this project? (Max 150 words)
 
-> Inheritance is the process of deriving from base classes. The purpose of inheritance in the project is to configure the various different 'moods' (subclasses - happy / sad) of the Smiley superclass
+> Inheritance is the process of deriving from base classes. The purpose of inheritance in the project is to configure the various different 'moods' (subclasses - happy / sad) of the Smiley superclass.
 >
 
 ### 2.5. Compare and contrast classes
@@ -178,22 +178,22 @@ Compare and contrast the classes Happy and Sad.
    > Both (sub)classes have def__init__(self):, def draw_mouth(self):, def draw_eyes functions. They also both need to import the smiley function from smiley.py
    >
 3. What difference stands out the most to you and why?
-   > The blinkable class property in the happy class stands out the most to me, as it adds a function that doesn't exist
+   > The blinkable class property in the happy class stands out the most to me, as it adds a function that doesn't exist in the default smiley property.
    >
 4. How does this difference affect the functionality of these classes
-   > The sad class doesn't have the blinkable property 
+   > The sad class doesn't have the blinkable property, so it loses one functionality. 
    >
 
 ### 2.6. Where is the Sense(Hat) in the code?
 
 1. Which class(es) utilize the functionality of the SenseHat?
-   > Your answer here
+   > The Smiley class directly imports SenseHat's functionality into its own code.
    >
 2. Which of these classes directly interact with the SenseHat functionalities?
-   > Your answer here
+   > The Smiley class directly interacts with SenseHat's functionalities as it actually references SenseHat 
    >
 3. Discuss the hiding of the SenseHAT in terms of encapsulation (100-200 Words)
-   > Your answer here
+   > SenseHat's encapsulation is demonstrated by hiding its internal operations, such as the LED matrix and sensors. Instead of directly interacting with the hardware to produce new assertions, users can change the parameters within the libraries, without having to understand the hardware side. Thus, SenseHat's encapsulation promotes cleaner, safer and reliable code interaction.
    >
 
 ### 2.7. Sad Smileys Can’t Blink (Or Can They?)
@@ -204,17 +204,17 @@ Unlike the `Happy` smiley, the current implementation of the `Sad` smiley does n
 
 1. Does the code's author believe that every `Smiley` should be able to blink? Explain.
 
-> Your answer here
+> The author believes that every 'Smiley' should be able to blink, as the blinkable function can interface with smiley and simply enabled within the main executable.
 >
 
 2. For those smileys that blink, does the author expect them to blink in the same way? Explain.
 
-> Your answer here
+> The author expects them to blink the same way, as the paramaters been specifically defined to blink once with a delay of 0.25 seconds.
 >
 
 3. Referring to the implementation of blink in the Happy and Sad Smiley classes, give a brief explanation of what polymorphism is.
 
-> Your answer here
+> Polymorphism is an objected-oriented programming concept that allows different classes to define methods with the same name, but modifying its behaviour specific to each class. For example both happy and sad smiley can use the blinkable property, but you can set the happy to blink momentarily, whilst the sad one can be set by dimming or altering its sad expression.
 >
 
 4. How is inheritance used in the blink method, and why is it important for polymorphism?
