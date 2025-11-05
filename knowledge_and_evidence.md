@@ -219,7 +219,7 @@ Unlike the `Happy` smiley, the current implementation of the `Sad` smiley does n
 
 4. How is inheritance used in the blink method, and why is it important for polymorphism?
 
-> Your answer here
+> Inheritance is important for polymorphism because it establishes a relationship between classes that allows them to be treated as instances of the same parent type.
 >
 1. **Implement Blink in Sad Class:**
 
