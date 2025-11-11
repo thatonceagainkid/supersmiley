@@ -242,7 +242,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
 
 - Observe and document the Sad smiley as it blinks its eyes. Describe any adjustments or issues encountered during implementation.
 
-  > Your answer here
+  > The only adjustments i made was to swap the happy part in smiley = Happy() to smiley = sad. Otherwise had no issues occurred during implementation.
 
   ### 2.8. If It Walks Like a Duck…
 
