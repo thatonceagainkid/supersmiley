@@ -293,7 +293,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
 
   3. **Simple Method to Change Colors:**
   4. What is the easiest way you can think to change the smileys to green? Easiest, not necessarily the best!
-     > Your answer here
+     > By directly changing the color values in the Smiley class where the colors are defined.
 
 
 
