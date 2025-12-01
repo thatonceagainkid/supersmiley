@@ -281,7 +281,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
      1. Which colors are defined and in which class(s)?
         > Only the Smiley class has the colors defined, and it has white, green, yellow and red colors.
      2. What type of variables hold these colors? Are the values expected to change during the program's execution? Explain your answer.
-        > Your answer here
+        > They are not expected to change during execution, because they represent fixed color definitions that all smileys use consistently. Their purpose is to provide reusable values for rendering different expressions, not to store dynamic data.
      3. Add the color blue to the appropriate class using the appropriate format and values.
         <img width="401" height="158" alt="image" src="https://github.com/user-attachments/assets/8d6a4f8f-957d-44a1-bca0-be84686d4afd" />
 
@@ -289,7 +289,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   2. **Usage of Color Variables:**
 
      1. In which classes are the color variables used?
-        > Your answer here
+        > The color variables defined in the Smiley class are used by its subclasses, such as Happy or Sad, or in any future defined subclass that inherits the properties of Smiley.
 
   3. **Simple Method to Change Colors:**
   4. What is the easiest way you can think to change the smileys to green? Easiest, not necessarily the best!
