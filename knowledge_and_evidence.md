@@ -308,6 +308,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   <img width="501" height="261" alt="image" src="https://github.com/user-attachments/assets/a1024e64-505e-49f6-8c2c-4aa0f18af3c7" />
 
   3. **Determine the applicable Object-Oriented principle:** Consider whether Abstraction, Polymorphism, Inheritance, or Encapsulation best applies to the modifications made in this step.
+  > The modifications made in this step best represent Abstraction. By introducing the complexion() method, we moved colour handling away from specific implementations and into a more general, meaningful concept. Instead of directly accessing self.YELLOW, subclasses now rely on an abstract idea of a “complexion.” This hides the implementation detail of how the colour is stored and focuses instead on what it represents.
 
   4. **Verify the implementation:** Ensure that the modifications function as expected. The smileys should still display in yellow, confirming that the new method correctly replaces the direct color references.
 
