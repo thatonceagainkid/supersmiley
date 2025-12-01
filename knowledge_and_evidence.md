@@ -305,6 +305,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   <img width="645" height="415" alt="image" src="https://github.com/user-attachments/assets/727ba6c9-cc0a-48f4-9694-4f8779f4d5f4" />
 
   2. **Refactor subclasses to use the `complexion` method:** Modify any subclass that directly accesses the color variable to instead utilize the new `complexion` method. This ensures that color handling is centralized and can be easily modified in the future.
+  <img width="501" height="261" alt="image" src="https://github.com/user-attachments/assets/a1024e64-505e-49f6-8c2c-4aa0f18af3c7" />
 
   3. **Determine the applicable Object-Oriented principle:** Consider whether Abstraction, Polymorphism, Inheritance, or Encapsulation best applies to the modifications made in this step.
 
