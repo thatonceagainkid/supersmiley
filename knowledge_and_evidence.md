@@ -320,8 +320,10 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   Having removed the hardcoded color values, we now enhance the base class to support dynamic color assignments more effectively.
 
   1. **Modify the `__init__()` method in the `Smiley` class:** Introduce a default argument named `complexion` and assign `YELLOW` as its default value. This allows the instantiation of smileys with customizable colors.
+  <img width="729" height="480" alt="image" src="https://github.com/user-attachments/assets/4cf5f8ac-059b-4ce1-9f78-9ad470d90d19" />
 
   2. **Introduce a new instance variable:** Create a variable called `my_complexion` and assign the `complexion` parameter to it. This step ensures that each smiley instance can maintain its own color state.
+  <img width="712" height="407" alt="image" src="https://github.com/user-attachments/assets/4a0c56d1-bf7f-40f9-ad35-3c26c233f5b7" />
 
   3. **Rationale for `my_complexion`:** Using a distinct instance variable like `my_complexion` avoids potential conflicts with the method parameter names and clarifies that it is an attribute specific to the object.
 
