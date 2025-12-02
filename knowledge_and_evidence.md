@@ -328,8 +328,8 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   3. **Rationale for `my_complexion`:** Using a distinct instance variable like `my_complexion` avoids potential conflicts with the method parameter names and clarifies that it is an attribute specific to the object.
 
   4. **Bulk rename:** We want to update our grid to use the value of complexion, but we have so many `Y`'s in the grid. Use your IDE's refactoring tool to rename all instances of the **symbol** `Y` to `X`. Where `X` is the value of the `complexion` variable. Include a screenshot evidencing you have found the correct refactor tool and the changes made.
-
-  ![Bulk Rename](screenshots/bulk_rename.png)
+  <img width="550" height="551" alt="image" src="https://github.com/user-attachments/assets/050c211d-736b-4732-b021-0cc1c8cf56dc" />
+  <img width="238" height="227" alt="image" src="https://github.com/user-attachments/assets/9003ec2d-f2e4-4120-abc1-153f8f618bea" />
 
   5. **Update the `complexion` method:** Adjust this method to return `self.my_complexion`, ensuring that whatever color is assigned during instantiation is what the smiley displays.
 
