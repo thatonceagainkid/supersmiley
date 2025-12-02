@@ -311,6 +311,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   > The modifications made in this step best represent Abstraction. By introducing the complexion() method, we moved colour handling away from specific implementations and into a more general, meaningful concept. Instead of directly accessing self.YELLOW, subclasses now rely on an abstract idea of a “complexion.” This hides the implementation detail of how the colour is stored and focuses instead on what it represents.
 
   4. **Verify the implementation:** Ensure that the modifications function as expected. The smileys should still display in yellow, confirming that the new method correctly replaces the direct color references.
+  > The smiley is still yellow after these modifications.
 
   This step is crucial for setting up a more flexible system for color management in the smiley display logic, allowing for easy adjustments and extensions in the future.
 
