@@ -1,4 +1,4 @@
-<img width="1542" height="2047" alt="image" src="https://github.com/user-attachments/assets/ec448354-50bc-4f67-9a5a-708f0417fdbc" /># Evidence and Knowledge
+# Evidence and Knowledge
 
 This document includes instructions and knowledge questions that must be completed to receive a *Competent* grade on this portfolio task.
 
