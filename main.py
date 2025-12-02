@@ -4,10 +4,16 @@ That is, delete the sense_hat.py file that is included in this bundle."""
 
 import time
 
+from sad import Sad
+
 from happy import Happy
 
+from angry import Angry
+
+from blinkable import Blinkable
+
 def main():
-    smiley = Happy()
+    smiley = Angry()
 
     smiley.show()
 
@@ -22,4 +28,3 @@ if __name__ == '__main__':
     # freeze_support()
     ############################################################
     main()
-
