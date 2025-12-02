@@ -1,4 +1,4 @@
-# Evidence and Knowledge
+<img width="1542" height="2047" alt="image" src="https://github.com/user-attachments/assets/ec448354-50bc-4f67-9a5a-708f0417fdbc" /># Evidence and Knowledge
 
 This document includes instructions and knowledge questions that must be completed to receive a *Competent* grade on this portfolio task.
 
@@ -335,6 +335,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   <img width="583" height="81" alt="image" src="https://github.com/user-attachments/assets/76a59735-52d7-4ba5-8687-25c15d2c311b" />
 
   6. **Verification:** Run the updated code to confirm that Smileys still defaults to yellow unless specified otherwise.
+  > can confirm smiley is still yellow
 
   ### 3.4. Flexible Colors – Step 3
 
@@ -347,9 +348,17 @@ Include a screenshot of the sad smiley or the modified `main.py`:
      ```
 
   2. **Test color functionality for the Sad smiley:** Execute the program to verify that the Sad smiley now appears blue.
+  <img width="1542" height="2047" alt="image" src="https://github.com/user-attachments/assets/a8c0c9f1-fd0c-4721-a557-be7fba8ad04c" />
+
 
   3. **Ensure the Happy smiley remains yellow:** Confirm that changes to the Sad smiley do not affect the default color of the Happy smiley, which should still display in yellow.
+  <img width="1542" height="2047" alt="image" src="https://github.com/user-attachments/assets/2dd825b1-cd2c-41dc-92bb-519ff4639aa5" />
+
 
   4. **Design and Implement An Angry Smiley:** Create an Angry smiley class that inherits from the `Smiley` class. Set the color of the Angry smiley to red by passing `self.RED` as the `complexion` argument in the superclass call.
+  <img width="713" height="887" alt="image" src="https://github.com/user-attachments/assets/dbed4015-6c0c-412f-9695-611f0473e1e9" />
+  <img width="1542" height="2047" alt="image" src="https://github.com/user-attachments/assets/ce224539-dd94-4cab-a56c-dfac0f6e61a0" />
+
+
 
   ***
