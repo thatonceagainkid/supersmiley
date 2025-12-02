@@ -332,6 +332,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   <img width="238" height="227" alt="image" src="https://github.com/user-attachments/assets/9003ec2d-f2e4-4120-abc1-153f8f618bea" />
 
   5. **Update the `complexion` method:** Adjust this method to return `self.my_complexion`, ensuring that whatever color is assigned during instantiation is what the smiley displays.
+  <img width="583" height="81" alt="image" src="https://github.com/user-attachments/assets/76a59735-52d7-4ba5-8687-25c15d2c311b" />
 
   6. **Verification:** Run the updated code to confirm that Smileys still defaults to yellow unless specified otherwise.
 
